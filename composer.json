@@ -1,0 +1,41 @@
+{
+    "name": "saurabhsharma/http-status-code",
+    "description": "A simple class to return correct status codes for http responses",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "http status code",
+        "saurabhsharma",
+        "http Codes"
+    ],
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Saurabh Sharma",
+            "email": "saurabh.androapps@gmail.com",
+            "homepage": "https://www.svss.me/"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SaurabhSharma\\StatusCode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SaurabhSharma\\Tests\\StatusCode\\": "Tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "require-dev": {
+        "pestphp/pest": "1.x-dev"
+    }
+}
