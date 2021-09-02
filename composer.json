@@ -29,11 +29,7 @@
         }
     },
     "require": {
-        "php": "^8.0"
-    },
-    "config": {
-        "sort-packages": true,
-        "optimize-autoloader": true
+        "php": "^7.1 || ^7.2 || ^7.3 || ^7.4 || ^8.0"
     },
     "require-dev": {
         "pestphp/pest": "1.x-dev"
